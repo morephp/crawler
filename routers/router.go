@@ -14,6 +14,8 @@ func init() {
 	beego.Router("/admin/main", &admin.IndexController{}, "*:Main")
 	beego.Router("/admin/info", &admin.IndexController{}, "*:Info")
 
+	beego.Router("/admin/crawler/run", &admin.CrawlerController{}, "*:Run")
+
 	beego.Router("/admin/user", &admin.UserController{}, "*:Index")
 	beego.Router("/admin/user/add", &admin.UserController{}, "*:Add")
 	beego.Router("/admin/user/update", &admin.UserController{}, "*:Update")

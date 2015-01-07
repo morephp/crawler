@@ -11,6 +11,7 @@
           <ul class="premium-menu nav nav-list collapse in">
             <li ><a href="/admin/crawler/add"><span class="fa fa-caret-right"></span> 增加爬虫</a></li>
         <li ><a href="/admin/crawler/list"><span class="fa fa-caret-right"></span> 爬虫列表</a></li>
+         <li ><a href="/admin/crawler/run"><span class="fa fa-caret-right"></span> 运行爬虫</a></li>
       </ul>
         </li>
     <li><a href="#" data-target=".accounts-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-user"></i> 用户管理<i class="fa fa-collapse"></i></a></li>
